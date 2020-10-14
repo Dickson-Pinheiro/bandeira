@@ -1,0 +1,55 @@
+.portSession4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portSession4Continer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1040px;
+}
+
+.portSession4Container .portSession4titleAndParagrath  h1 {
+    text-align: center;
+    font-family: vera sans;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.portSession4Container .portSession4titleAndParagrath p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Noto Sans', 'Sans Serif';
+    font-size: 18px;
+    max-width: 800px;
+}
+.buttonsPortfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.buttonsPortfolio a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    text-decoration: none;
+    color: red;
+    background-color: #ffffff;
+    border: 2px solid red;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.buttonsPortfolio a:hover {
+    background-color: red;
+    color: #ffffff;
+}

@@ -1,0 +1,15 @@
+.logoHeader{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 710px) {
+    .logoHeader {
+        margin-left: 0;
+    }
+}

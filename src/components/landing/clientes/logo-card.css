@@ -1,0 +1,8 @@
+.containerLogo img {
+    width: 140px;
+    margin: 30px;
+}
+
+.containerLogo:first-child {
+    margin-left: 0;
+}

@@ -1,0 +1,32 @@
+.containerSession2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.containerSession2 h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: vera sans;
+    color: rgb(60, 60, 60);
+}
+
+.containerClient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 750px;    
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .containerClient {
+        padding-left: 0;
+    }
+    .containerSession2 {
+        height: 100%;
+    }
+}

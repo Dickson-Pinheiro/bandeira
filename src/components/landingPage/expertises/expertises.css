@@ -1,0 +1,19 @@
+.expertiseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin: 15px 15px;
+}
+
+.expertiseContainer img {
+    width: 110px;
+}
+
+.expertiseContainer h2 {
+    font-family: vera sans;
+    font-size: 22px;
+    color: rgb(115, 110, 110);
+    margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+.portsession2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -60px;
+    
+}
+
+.portsession2Container {
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 450px;
+    top: -55px;
+
+
+}
+
+.portsession2Container img {
+    width: 50%;
+    max-width: 500px;
+    margin-left: 20px;
+    min-width: 260px;
+}
+
+.portsession2Container .porttitleAndParagrath {
+    position: relative;
+    max-width: 30%;
+    min-width: 250px;
+    top: 60px;
+    margin-right: 15px;
+}
+
+.portsession2Container .porttitleAndParagrath h1 {
+    font-family: vera Sans;
+    color: rgb(115, 110, 110);
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.portsession2Container .porttitleAndParagrath p {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: right;
+    color: rgb(115, 110, 110);
+}
+
+@media (min-width: 800px) {
+    .portsession2Container {
+        top: -20px;
+    }
+}
+
+
+@media (max-width: 586px) {
+    .portsession2Container {
+        height: 480px;
+    }
+    .portsession2Container .porttitleAndParagrath {
+        top: 0;
+    }
+    .portsession2Container {
+        top: -10px;
+    }
+}

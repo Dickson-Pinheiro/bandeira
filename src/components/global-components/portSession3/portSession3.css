@@ -1,0 +1,20 @@
+.portSession3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portSession3Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1040px;
+    flex-wrap: wrap;
+}
+
+.portSession3Container img {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 10px;
+}

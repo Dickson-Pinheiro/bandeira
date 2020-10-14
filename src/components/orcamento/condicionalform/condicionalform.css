@@ -1,0 +1,28 @@
+.sendForm {
+    width: 380px;
+    text-align: center;
+    height: 345px;
+    color: rgb(140, 135, 135);
+    font-weight: 500;
+    margin-top: 70px;
+
+}
+
+
+@media (max-width: 730px){
+    .sendForm {
+        width: 500px;
+    }
+}
+
+@media (min-width: 820px){
+    .sendForm {
+        width: 420px;
+    }
+}
+
+@media (max-width: 411px){
+    .sendForm {
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    /*height: 120px;*/
+}
+footer .setas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .setas img{
+    position: relative;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer1 p {
+    max-width: 200px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footer1 p img {
+    width: 18px;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.footer1 > img {
+    width: 180px;
+}
+
+
+@media (max-width: 608px) {
+    .footer1 p {
+        display: none;
+    }
+}

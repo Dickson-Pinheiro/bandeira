@@ -1,0 +1,85 @@
+div.formDownload {
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 25px;
+    width: 360px;
+    height: 390px;
+    padding-top: 10px;
+    box-shadow: 1px 4px 13px rgb(90, 90, 90);
+    z-index: 2;
+}
+
+div.formDownload form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+
+div.formDownload h1 {
+    font-family: vera sans;
+    margin-top: 5px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+div.formDownload .containerFormDownload {
+    display: flex;
+    flex-direction: column;
+}
+
+div.formDownload input[type='text'], div.formDownload input[type='email'], div.formDownload input[type='tel'] {
+    width: 260px;
+    height: 35px;
+    text-indent: 12px;
+    border: 0.5px solid rgb(180, 180, 180);
+    outline: none;
+    background-color: #ffffff;
+}
+
+div.formDownload input[type='text']:focus, div.formDownload input[type='email']:focus,div.formDownload input[type='tel']:focus {
+    border-color: rgb(180, 180, 180);
+    
+}
+
+div.formDownload label {
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+    margin-top: 18px;
+    color: rgb(80, 80, 80);
+}
+
+
+
+div.formDownload input[type='submit'] {
+    margin-left: 0;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 240px;
+    border:none;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+@media (min-width: 1000px) {
+    div.formDownload {
+        left: 5%;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 668px){
+    div.formDownload {
+        left: calc(100%/2);
+        transform: translateX(-50%);
+    }
+}

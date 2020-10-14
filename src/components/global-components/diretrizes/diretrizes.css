@@ -1,0 +1,36 @@
+.diretrizes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 250px;
+    height: 380px;
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.diretrizes img {
+    margin-top: 10px;
+    width: 120px;
+}
+
+.diretrizes h3 {
+    font-family: vera sans;
+    color: rgb(115, 110, 110);
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.diretrizes p {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(130, 130, 130)
+}
+
+.containerDiretriz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.form img {
+    position: absolute;
+    width: 40px;
+    bottom: 0;
+}
+
+label {
+    margin-bottom: 10px;
+    font-family: vera sans;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(125, 120, 120)
+}
+
+label[for='desafio'] {
+    margin-bottom: 10px;
+    font-family: vera sans;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(125, 120, 120)
+
+}
+
+input[type='text'], input[type='email'], input[type='tel'] {
+    width: 330px;
+    border-color: rgba(255, 0, 0, 0.5);
+    height: 40px;
+    border-radius: 10px;
+    text-indent: 46px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input[type='text']:focus , input[type='email']:focus, input[type='tel']:focus {
+    border-color: rgba(255, 0, 0, 0.5);
+    outline: none;
+}
+
+input[type='submit'] {
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    background-color: red;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type='submit'] {
+    outline: none;
+}
+
+input[type='submit']:hover {
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+}

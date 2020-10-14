@@ -1,0 +1,100 @@
+.portfolioHeader {
+    height: 100%;
+}
+
+
+.circle {
+    position: absolute;
+    width: 120%;
+    height: 45%;
+    max-height: 370px;
+    background-color: #fff;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    top: 76px;
+    left: -10%;
+    z-index: 1;
+}
+
+.arrowsAndMac {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 80px;
+}
+
+img.central {
+    position: relative;
+    width: 40%;
+    max-width: 400px;
+    min-width: 300px;
+    z-index: 3;
+
+}
+
+.centralContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.arrowsAndMac img{
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+    z-index: 3;
+}
+
+.arrowWhite {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.arrowWhite img{
+    width: 50%;
+    max-width: 500px;
+}
+.arrowWhite > div h1 {
+    color: #fff;
+    font-family: vera sans;
+    padding-left: 70px;
+    margin-bottom: 15px;
+}
+
+.arrowWhite > div p {
+    color: #fff;
+    padding-left: 70px;
+    max-width: 500px;
+    margin-bottom: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 800px){
+    .circle {
+        height: 60%;
+    }
+}
+
+@media screen and (max-height: 411px){
+    .circle {
+        height: 90%;
+    }
+    .arrowsAndMac {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .arrowWhite img {
+        display: none;
+    }
+}
